@@ -1,119 +1,405 @@
-# 📚 UTN FRC - Planes de Estudio Interactivos (2025)
+<style>
+/* Estilos globales para el README */
 
-![Imagen de Plan de Estudios](./imagenes/img_01.png)
+.alerta, .warning, .info, .danger {
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 1em;
+}
 
----
+.alerta, .danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
 
-## 📋 Descripción del Proyecto
+.warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
 
-Este repositorio contiene **planes de estudio interactivos** de la **Facultad Regional Córdoba - Universidad Tecnológica Nacional (UTN FRC)** para distintas carreras de **Ingeniería** y sus **títulos intermedios**.
+.info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
 
-💬 **Importante**:  
-Este es un **proyecto personal**. **No es oficial** ni está asociado directamente a la facultad. Se creó para **facilitar la planificación académica** de los estudiantes.
+.alerta {
+    border: 1px solid #f5c6cb;
+}
 
----
+.warning {
+    border: 1px solid #ffeeba;
+}
 
-## 🎯 Objetivo
+.info {
+    border: 1px solid #bee5eb;
+}
 
-El objetivo principal es ofrecer a los alumnos una herramienta intuitiva para:
+.danger {
+    border: 2px solid #f5c2c7;
+}
 
-- 📖 Consultar el listado completo de materias del plan de estudios.
-- 🔎 Ver **correlativas** requeridas para cursar o aprobar materias.
-- ✍️ Registrar el **estado** de materias (Aprobada / Regularizada).
-- 🧮 Calcular **avance académico** (créditos obtenidos, materias faltantes).
-- 🎯 Resaltar:
-  - Materias dependientes de una seleccionada.
-  - Materia(s) que dependen de otra.
-- 📊 Filtrar materias por:
-  - Modalidad (Anual, 1er Cuatrimestre, 2do Cuatrimestre).
-  - Materias electivas u obligatorias.
-- 📋 Consultar:
-  - Créditos obtenidos.
-  - Modalidad de cursada.
-  - Carga horaria.
-- 🔀 Ordenar la tabla de materias (alfabéticamente, por estado, etc.).
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
-**¡Todo de manera simple y visual!**
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
 
----
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
 
-## 📂 Carreras Disponibles
+td {
+    width: 25%;
+    vertical-align: top;
+}
 
-Los archivos Excel disponibles actualmente son:
+td:hover {
+    background-color: #e0e0e0;
+}
 
-| Carrera | Archivo |
-|:--------|:--------|
-| Ingeniería Civil | `Plan Estudio 2025 CIVIL - v5.1.xlsm` |
-| Ingeniería en Energía Eléctrica | `Plan Estudio 2025 ELECTRICA - v5.1.xlsm` |
-| Ingeniería Electrónica (y T.U. en Electrónica) | `Plan Estudio 2025 ELECTRONICA - v5.1.xlsm` |
-| Ingeniería Industrial (y T.U. en Gestión Industrial) | `Plan Estudio 2025 INDUSTRIAL - v5.1.xlsm` |
-| Ingeniería Mecánica | `Plan Estudio 2025 MECANICA - v5.1.xlsm` |
-| Ingeniería Metalúrgica (y T.U. Metalúrgico) | `Plan Estudio 2025 METALURGICA - v5.1.xlsm` |
-| Ingeniería Química (y T.U. en Química) | `Plan Estudio 2025 QUIMICA - v5.1.xlsm` |
-| Ingeniería en Sistemas de Información (y Analista Universitario en Sistemas) | `Plan Estudio 2025 SISTEMAS - v5.1.xlsm` |
+a {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color: #0056b3;
+}
 
----
 
-## 🛠️ Requisitos
+img.excel-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
 
-Para utilizar correctamente los Excel es necesario:
-
-- Tener instalado **Microsoft Excel** (versión que soporte macros `.xlsm`).
-- Habilitar las **macros** al abrir el archivo.
-
-### 📌 ¿Cómo habilitar las macros?
-
-1. Abrir el archivo Excel.
-2. Si aparece una advertencia amarilla arriba que dice "Advertencia de seguridad: Se han deshabilitado las macros", hacer clic en **"Habilitar contenido"**.
-3. ¡Listo! Ahora podrás usar todas las funciones.
-
----
-
-## 🚀 ¿Cómo colaborar?
-
-¡Toda colaboración es bienvenida!
-
-### ✨ Formas de ayudar
-
-- Reportar errores o sugerencias (`Issues` en GitHub).
-- Proponer mejoras en los Excel.
-- Corregir o actualizar planes de estudio.
-- Mejorar macros o automatizaciones.
-
-### 🛠️ Guía para colaborar
-
-1. **Fork** del repositorio.
-2. Crear una nueva rama (`feature/mi-mejora`).
-3. Hacer los cambios necesarios.
-4. Crear un **Pull Request** explicando los cambios.
+# 🚀 Planes de Estudio UTN FRC Interactivos (2025) 📚
 
 ---
 
-## ⚖️ Licencia
+## ✨ ¡Bienvenido/a a PlanEstudiosUTN! ✨
 
-Este proyecto está disponible bajo la **Licencia MIT**.  
-Eso significa que **podés usar, copiar, modificar y distribuir** el contenido libremente, pero **sin garantías** de ningún tipo.
+Este proyecto, **PlanEstudiosUTN**, es una iniciativa **personal y no oficial** creada por **Giuliano Benicio Charra Marquez** de la **Universidad Tecnológica Nacional - Facultad Regional Córdoba (UTN FRC)**.
 
-[Ver la licencia completa aquí.](./LICENSE)
+<div class="alerta">
+<b>🚨 Atención:</b> Este proyecto <b>NO</b> es una herramienta oficial de la UTN FRC.<br><br>
+Es una iniciativa <b>independiente</b> destinada a ayudarte a visualizar y gestionar tu avance académico de manera más fácil e interactiva.<br><br>
+Consulta siempre las <b>fuentes oficiales</b> para información académica actualizada.
+</div>
 
----
-
-## 🙋‍♂️ Autor
-
-**Nombre**: GiulianoCharra
-
-**Facultad**: Universidad Tecnológica Nacional - Facultad Regional Córdoba (UTN FRC)
-
-**Contacto**:  
-📧 Podés crear un `Issue` en este repositorio si tenés preguntas o sugerencias.
+<div class="info">
+<b>ℹ️ Nota:</b> Los archivos de PlanEstudiosUTN fueron elaborados utilizando los planes de estudio disponibles públicamente o de acceso accesible en su momento.<br><br>
+Aunque se ha puesto el mayor esfuerzo en asegurar su exactitud, <b>pueden existir errores</b>. ¡Cualquier crítica constructiva, corrección o sugerencia es <b>bienvenida</b> para seguir mejorando esta herramienta!
+</div>
 
 ---
 
-## 📢 Nota Final
+## 🎯 ¿Cuál es el Objetivo?
 
-Este es un **proyecto personal** destinado a facilitar la cursada a los estudiantes de ingeniería.  
-**No reemplaza ni suplanta la documentación oficial** proporcionada por la facultad.
+**PlanEstudiosUTN** busca simplificar la gestión de tu carrera universitaria, permitiéndote:
 
-Usalo libremente, mejoralo, y sobre todo... ¡**aprobá todo!** 🚀
+- ✅ **Visualizar tu Avance:** Obtén una panorámica clara de tu progreso en la carrera.
+- 🎓 **Gestionar tus Materias:** Realiza un seguimiento efectivo de materias aprobadas, regulares y pendientes.
+- 🔗 **Entender las Correlatividades:** Visualiza fácilmente los requisitos para cursar cada materia y planifica estratégicamente tu cursada.
+
+> **En resumen:** ¡Planifica tu carrera de Ingeniería en la UTN FRC de forma más inteligente y visual!
 
 ---
+
+## 🖼️ Vista previa del Plan de Estudios
+
+<p align="center">
+  <img src="imagenes/img_01.png" alt="Captura del PlanEstudiosUTN Excel" width="600">
+</p>
+
+---
+
+## ✨ Funcionalidades Principales ✨
+
+Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen algunas funcionalidades:
+
+### 📊 Visualización Interactiva y Clara del Plan de Estudios:
+
+- **Carrera Específica:** Cada archivo Excel corresponde a una carrera y plan de estudios de la UTN FRC.
+
+- **Tabla de Materias Detallada:**  
+  Listado completo de materias con:
+  - Código
+  - Nombre
+  - Estado visualizado por íconos:
+    - **🟩 Aprobado:** Materia aprobada (bandera verde).
+    - **🟨 Regular:** Materia regular o en curso (signo de exclamación amarillo).
+    - **🟥 Libre:** Materia libre (bandera roja).
+    - *(Sin ícono si el estado está vacío)*
+  - otros datos relevantes como carga horaria, correlatividades, etc.
+
+- **Búsqueda Dinámica 🔍 (ComboBox + TextBox):**
+  - Permite buscar materias por nombre o seleccionar desde una lista desplegable.
+
+- **Visualización de Dependencias 🔗:**
+  - **Mostrar dependencias** (NO/SI):
+    - **NO:** Se muestra únicamente la materia buscada o seleccionada.
+    - **SI:** Se muestran todas las materias que **dependen** de la materia buscada.
+
+- **Gestión de Excepciones ⚙️:**
+  - **Excepciones** (NO/SI):
+    - **NO:** Solo muestra materias que cumplen sus requisitos normales.
+    - **SI:** Ignora requisitos de cursado y calcula si podrías solicitar cursar la materia basándose en tus horas aprobadas restantes.
+    - Se indica si la solicitud sería posible o no.
+
+<div class="warning">
+<b>⚠️ Importante:</b> El cálculo de excepciones es estimativo y no oficial. Utilízalo como una guía preliminar, no como confirmación oficial de cursado.
+</div>
+
+- **Filtros Avanzados:**
+  - Filtrar materias por:
+    - Nivel
+    - Tipo (Obligatoria / Electiva)
+    - Modalidad (Anual, 1er Cuatrimestre, 2do Cuatrimestre, Curso Complementario)
+    - Estado (Aprobada, Regular, Libre, Vacío)
+    - Disponibilidad para cursar
+
+- **Cambio de Plan 📋:**
+  - Visualiza materias según el plan anterior (**< 2023**) o el nuevo plan (**≥ 2023**).
+
+- **Carga Horaria y Puntos de Electivas:**
+  - Visualiza la carga horaria de cada materia y los puntos obtenidos en materias electivas.
+
+- **Resaltado de Materias:**
+  - Materias que faltan para obtener:
+    - Título intermedio (si la carrera lo tiene)
+    - Título de Ingeniero/a
+    - Materias disponibles para cursar actualmente
+
+- **Correlatividades Visuales 🔗 (Columnas "R" y "A"):**
+  - **"R"** (Regulares necesarias)
+  - **"A"** (Aprobadas necesarias)
+  - Clic interactivo: Al seleccionar correlativas o materias, se resaltan en la hoja **Control** (si existe).
+
+- **Ordenamiento Flexible 🔀 (Botón "Ordenar por Materia"):**
+  - Ordena las materias A-Z, Z-A o por el orden original del plan.
+
+- **Limpieza Rápida 🧹 (Botón "Limpiar Estado"):**
+  - Restablece todos los filtros y selecciones.
+
+---
+
+## 📂 Archivos Excel - ¡Descarga el Plan de tu Carrera! 🚀
+
+<div align="center">
+<table>
+<tr>
+    <td>
+        <a href="#">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+            <br><b>Ingeniería Civil</b>
+        </a>
+    </td>
+    <td>
+        <a href="#">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+            <br><b>Ingeniería en Energía Eléctrica</b>
+        </a>
+    </td>
+    <td>
+        <a href="#">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+            <br><b>Ingeniería Electrónica</b>
+        </a>
+    </td>
+    <td>
+        <a href="#">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+            <br><b>Ingeniería Industrial</b>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>
+        <a href="#">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+            <br><b>Ingeniería Mecánica</b>
+        </a>
+    </td>
+    <td>
+        <a href="#">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+            <br><b>Ingeniería Metalúrgica</b>
+        </a>
+    </td>
+    <td>
+        <a href="#">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+            <br><b>Ingeniería Química</b>
+        </a>
+    </td>
+    <td>
+        <a href="#">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+            <br><b>Ingeniería en Sistemas de Información</b>
+        </a>
+    </td>
+</tr>
+</table>
+</div>
+
+---
+
+## 🔐 Protección de los Archivos Excel y Macros 🛡️
+
+Los archivos de **PlanEstudiosUTN** están protegidos para garantizar la estabilidad y el correcto funcionamiento de todas las funcionalidades interactivas.
+
+- **Protección de Hojas de Cálculo:**
+  - Las hojas están protegidas para evitar modificaciones accidentales en fórmulas y estructuras críticas.
+
+- **Protección del Código VBA:**
+  - El código de las macros también está protegido mediante contraseña para prevenir cambios que puedan afectar el correcto funcionamiento o la seguridad.
+
+<div class="info">
+<b>ℹ️ Nota:</b> Esta protección <b>NO</b> limita el uso normal de la herramienta.<br><br>
+Podrás utilizar todos los controles (ComboBox, TextBox, Botones, Checkboxes, Filtros, etc.) con total normalidad.<br><br>
+La protección está pensada para <b>preservar la estabilidad</b> del archivo.
+</div>
+
+---
+
+## 📋 Habilitar Macros en Excel
+
+Para que todas las funcionalidades de **PlanEstudiosUTN** funcionen correctamente, debes **habilitar las macros** al abrir el archivo Excel (.xlsm).
+
+Hay varias formas de hacerlo, según tu preferencia:
+
+---
+
+### ✅ Opción 1: Habilitar Macros al Abrir el Archivo (Rápido y Sencillo)
+
+1. Al abrir el archivo Excel, aparecerá una **barra amarilla** con una advertencia de seguridad:  
+   > “Las macros se han deshabilitado.”
+
+2. Haz clic en el botón **"Habilitar contenido"**.
+
+<p align="center">
+  <img src="imagenes/habilitar_macros_excel.png" alt="Habilitar Macros en Excel - Ejemplo" width="600">
+  <br>
+  <i>Ejemplo de advertencia de seguridad (puede variar según la versión de Excel).</i>
+</p>
+
+---
+
+### 🔧 Opción 2: Habilitar Macros desde la Vista Backstage de Excel
+
+1. Abre el archivo Excel (.xlsm).
+2. Ve a la pestaña **"Archivo"** → **"Información"**.
+3. En **"Advertencia de seguridad"**, haz clic en **"Habilitar contenido"** → **"Opciones avanzadas"**.
+4. Elige **"Habilitar contenido para esta sesión"** y haz clic en **Aceptar**.
+
+---
+
+### ⚙️ Opción 3: Configurar Macros en el Centro de Confianza (Usuarios Avanzados)
+
+<div class="warning">
+<b>⚠️ Advertencia:</b> Cambiar configuraciones del Centro de Confianza puede afectar la seguridad general de tu Excel.<br><br>
+Hazlo solo si comprendes los riesgos y confías en los archivos que utilizas.
+</div>
+
+1. Abre Excel.
+2. Ve a **Archivo** → **Opciones** → **Centro de Confianza** → **Configuración del Centro de Confianza**.
+3. Selecciona **Configuración de macros**.
+4. Recomendado:
+   - Activar **"Habilitar macros VBA solo para esta sesión"**.
+   - Activar **"Confiar en el acceso al modelo de objetos de proyectos VBA"** (opcional pero recomendado para PlanEstudiosUTN).
+5. Guarda los cambios y **reinicia Excel** si es necesario.
+
+---
+
+### 🔓 Opción 4: Desbloquear el Archivo desde las Propiedades de Windows
+
+Algunos sistemas marcan como “inseguro” un archivo descargado. Si no ves la opción de habilitar macros, deberías desbloquear el archivo:
+
+1. Cierra el archivo Excel.
+2. Haz clic derecho en el archivo **PlanEstudiosUTN.xlsm** → **Propiedades**.
+3. Marca la opción **"Desbloquear"** en la parte inferior de la ventana si está disponible.
+4. Haz clic en **Aplicar** y luego en **Aceptar**.
+5. Abre nuevamente el archivo Excel.
+
+<p align="center">
+  <img src="imagenes/desbloquear_archivo_excel.jpg" alt="Desbloquear Archivo Excel - Propiedades" width="400">
+  <br>
+  <i>Ejemplo de la opción "Desbloquear" en las propiedades del archivo (puede variar según tu versión de Windows).</i>
+</p>
+
+---
+
+<div class="danger">
+<b>🚨 Seguridad:</b> Habilita macros <b>solo si confías</b> en el origen del archivo.<br><br>
+PlanEstudiosUTN es seguro, pero siempre debes tener precaución general al habilitar macros provenientes de fuentes desconocidas.
+</div>
+
+<div class="info">
+<b>ℹ️ Sugerencia:</b> Si deseas más información sobre cómo habilitar macros en Excel, puedes consultar esta guía externa:<br><br>
+➡️ <a href="https://www.planillaexcel.com/blog/como-habilitar-las-macros-en-tu-excel" target="_blank"><b>Cómo habilitar macros en Excel - PlanillaExcel.com</b></a><br><br>
+<i>Esta es una fuente externa y ajena a este proyecto. Se recomienda siempre verificar que la información sea actualizada y adecuada para tu versión de Excel.</i>
+</div>
+
+
+---
+---
+
+## 🤝 ¡Colabora y Mejora PlanEstudiosUTN! 🚀
+
+**Tu feedback y participación son muy valiosos para seguir mejorando esta herramienta.**  
+PlanEstudiosUTN es un proyecto en constante evolución pensado para ayudar a todos los estudiantes de la UTN FRC.
+
+¿Cómo puedes colaborar?
+
+- 🐞 **Informar Problemas (Issues):**
+  - Si encuentras algún error, comportamiento inesperado o inconsistencia, crea un "Issue" en este repositorio.
+  - Describe claramente el problema o la mejora sugerida.
+
+- 💡 **Compartir Ideas y Comentarios:**
+  - Usa la sección de **"Discusiones"** para proponer ideas, sugerencias generales o debatir mejoras junto a otros usuarios y el autor.
+
+<div class="info">
+<b>ℹ️ Nota:</b> ¡Las críticas constructivas, correcciones, sugerencias o nuevas ideas son <b>muy bienvenidas</b>!<br><br>
+Este proyecto es abierto y colaborativo: cualquier aporte que ayude a mejorarlo será valorado.
+</div>
+
+---
+
+## ⚠️ Disclaimer (Descargo de Responsabilidad) ⚠️
+
+<div class="danger">
+<b>🚨 Importante:</b> PlanEstudiosUTN es un proyecto <b>personal y NO oficial</b>.<br><br>
+No existe afiliación ni respaldo por parte de la <b>Universidad Tecnológica Nacional Facultad Regional Córdoba (UTN FRC)</b>.
+</div>
+
+La información contenida en los archivos Excel de PlanEstudiosUTN:
+
+- Se basa en planes de estudio que fueron públicos o accesibles en el momento de su elaboración.
+- Ha sido recopilada y organizada con el mayor cuidado posible.
+- **Sin embargo**, puede contener errores, diferencias o desactualizaciones respecto a la información oficial.
+
+<div class="warning">
+<b>⚠️ Advertencia:</b> No se garantiza la precisión, integridad o vigencia oficial de la información.<br><br>
+Siempre verifica tus datos académicos utilizando fuentes oficiales: el sitio web de la UTN FRC, departamentos de alumnos, coordinadores de carrera o documentación oficial actualizada.
+</div>
+
+**PlanEstudiosUTN se proporciona "tal cual", sin garantías de ningún tipo, explícitas o implícitas.**  
+El uso de esta herramienta es **bajo tu propio riesgo**. El autor no asume ninguna responsabilidad por decisiones tomadas en base a esta información.
+
+---
+
+<p align="right">
+<b>Desarrollado con pasión por Giuliano Benicio Charra Marquez - UTN FRC - 2025</b>
+</p>
+
+<p align="center">
+    ¡Éxito en tu camino en la UTN FRC! 🚀
+</p>
