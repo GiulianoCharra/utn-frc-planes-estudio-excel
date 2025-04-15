@@ -180,6 +180,8 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
 </table>
 </div>
 
+[Ingeniería en Sistemas de Información](https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/blob/main/excels/Plan%20Estudio%202025%20SISTEMAS%20-%20v5.1.xlsm)
+
 ---
 
 ## 🔐 Protección de los Archivos Excel y Macros 🛡️
