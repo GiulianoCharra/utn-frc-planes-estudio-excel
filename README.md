@@ -171,7 +171,7 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
         </a>
     </td>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
-        <a href="./excels/Plan Estudio 2025 SISTEMAS - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+        <a href="./excels/Plan Estudio 2025 SISTEMAS - v5.1.xlsm" target="_black" download style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería en Sistemas de Información</b>
         </a>
