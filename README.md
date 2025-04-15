@@ -6,16 +6,19 @@
 
 Este proyecto, **PlanEstudiosUTN**, es una iniciativa **personal y no oficial** creada por **Giuliano Benicio Charra Marquez** de la **Universidad Tecnológica Nacional - Facultad Regional Córdoba (UTN FRC)**.
 
-<div style="background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
-<b>🚨 Atención:</b> Este proyecto <b>NO</b> es una herramienta oficial de la UTN FRC.<br><br>
-Es una iniciativa <b>independiente</b> destinada a ayudarte a visualizar y gestionar tu avance académico de manera más fácil e interactiva.<br><br>
-Consulta siempre las <b>fuentes oficiales</b> para información académica actualizada.
-</div>
+> [!Caution]
+> 🚨 **Atención:** Este proyecto ***NO*** es una herramienta oficial de la UTN FRC.  
+> 
+> Es una iniciativa **independiente** destinada a ayudarte a visualizar y gestionar tu avance académico de manera más fácil e interactiva.  
+> 
+> Consulta siempre las **fuentes oficiales** para información académica actualizada.
 
-<div style="background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
-<b>ℹ️ Nota:</b> Los archivos de PlanEstudiosUTN fueron elaborados utilizando los planes de estudio disponibles públicamente o de acceso accesible en su momento.<br><br>
-Aunque se ha puesto el mayor esfuerzo en asegurar su exactitud, <b>pueden existir errores</b>. ¡Cualquier crítica constructiva, corrección o sugerencia es <b>bienvenida</b> para seguir mejorando esta herramienta!
-</div>
+> [!NOTE]
+> ℹ️ **Nota:** Los archivos de PlanEstudiosUTN fueron elaborados utilizando planes disponibles públicamente.
+>   
+> Aunque se ha puesto el mayor esfuerzo en asegurar su exactitud, **pueden existir errores**.  
+> ¡Cualquier sugerencia o corrección es muy bienvenida para seguir mejorando esta herramienta!
+
 
 ---
 
@@ -75,9 +78,9 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
     - **SI:** Ignora requisitos de cursado y calcula si podrías solicitar cursar la materia basándose en tus horas aprobadas restantes.
     - Se indica si la solicitud sería posible o no.
 
-<div style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
-<b>⚠️ Importante:</b> El cálculo de excepciones es estimativo y no oficial. Utilízalo como una guía preliminar, no como confirmación oficial de cursado.
-</div>
+> [!WARNING]
+> ⚠️ **Importante:** El cálculo de excepciones es estimativo y no oficial.  
+> Utilízalo como una guía preliminar, no como confirmación oficial.
 
 - **Filtros Avanzados:**
 
@@ -190,11 +193,11 @@ Los archivos de **PlanEstudiosUTN** están protegidos para garantizar la estabil
 - **Protección del Código VBA:**
   - El código de las macros también está protegido mediante contraseña para prevenir cambios que puedan afectar el correcto funcionamiento o la seguridad.
 
-<div style="background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
-<b>ℹ️ Nota:</b> Esta protección <b>NO</b> limita el uso normal de la herramienta.<br><br>
-Podrás utilizar todos los controles (ComboBox, TextBox, Botones, Checkboxes, Filtros, etc.) con total normalidad.<br><br>
-La protección está pensada para <b>preservar la estabilidad</b> del archivo.
-</div>
+> [!NOTE]
+> ℹ️ **Nota:** Esta protección **NO** limita el uso normal de la herramienta.  
+> Todos los controles funcionan con normalidad.  
+> Está pensada para **preservar la estabilidad** del archivo.
+
 
 ---
 
@@ -233,10 +236,10 @@ Hay varias formas de hacerlo, según tu preferencia:
 
 ### ⚙️ Opción 3: Configurar Macros en el Centro de Confianza (Usuarios Avanzados)
 
-<div style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
-<b>⚠️ Advertencia:</b> Cambiar configuraciones del Centro de Confianza puede afectar la seguridad general de tu Excel.<br><br>
-Hazlo solo si comprendes los riesgos y confías en los archivos que utilizas.
-</div>
+> [!WARNING]
+> ⚠️ **Advertencia:** Cambiar configuraciones del Centro de Confianza puede afectar la seguridad de tu Excel.  
+> Hazlo solo si comprendés los riesgos y confiás en el archivo.
+
 
 1. Abre Excel.
 2. Ve a **Archivo** → **Opciones** → **Centro de Confianza** → **Configuración del Centro de Confianza**.
@@ -266,16 +269,19 @@ Algunos sistemas marcan como “inseguro” un archivo descargado. Si no ves la 
 
 ---
 
-<div style="background-color: #f8d7da; color: #721c24; border: 2px solid #f5c2c7; padding: 15px; border-radius: 6px; margin-bottom: 1em;">
-<b>🚨 Seguridad:</b> Habilita macros <b>solo si confías</b> en el origen del archivo.<br><br>
-PlanEstudiosUTN es seguro, pero siempre debes tener precaución general al habilitar macros provenientes de fuentes desconocidas.
-</div>
+> [!CAUTION]
+> 🚨 **Seguridad:** Habilita macros **solo si confiás en el origen del archivo**.  
+> 
+> PlanEstudiosUTN es seguro, pero tené precaución general con macros de fuentes desconocidas.
 
-<div style="background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; padding: 15px; border-radius: 6px; margin-bottom: 1em;">
-<b>ℹ️ Sugerencia:</b> Si deseas más información sobre cómo habilitar macros en Excel, puedes consultar esta guía externa:<br><br>
-➡️ <a href="https://www.planillaexcel.com/blog/como-habilitar-las-macros-en-tu-excel" target="_blank" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;"><b>Cómo habilitar macros en Excel - PlanillaExcel.com</b></a><br><br>
-<i>Esta es una fuente externa y ajena a este proyecto. Se recomienda siempre verificar que la información sea actualizada y adecuada para tu versión de Excel.</i>
-</div>
+
+
+> [!TIP]
+> ℹ️ **Sugerencia:** Si deseas más información sobre cómo habilitar macros en Excel, puedes consultar esta guía externa: 
+> 
+> ➡️ [Cómo habilitar macros en Excel - PlanillaExcel.com](https://www.planillaexcel.com/blog/como-habilitar-las-macros-en-tu-excel)  
+> _Esta es una fuente externa y ajena a este proyecto. Se recomienda siempre verificar que la información sea actualizada y adecuada para tu versión de Excel._
+
 
 ---
 
@@ -296,19 +302,19 @@ PlanEstudiosUTN es un proyecto en constante evolución pensado para ayudar a tod
 - 💡 **Compartir Ideas y Comentarios:**
   - Usa la sección de **"Discusiones"** para proponer ideas, sugerencias generales o debatir mejoras junto a otros usuarios y el autor.
 
-<div style="background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
-<b>ℹ️ Nota:</b> ¡Las críticas constructivas, correcciones, sugerencias o nuevas ideas son <b>muy bienvenidas</b>!<br><br>
-Este proyecto es abierto y colaborativo: cualquier aporte que ayude a mejorarlo será valorado.
-</div>
+> [!NOTE]
+> ℹ️ **Nota:** ¡Las críticas constructivas, correcciones o sugerencias son muy bienvenidas!  
+> Este proyecto es colaborativo: cualquier aporte será valorado.
+
 
 ---
 
 ## ⚠️ Disclaimer (Descargo de Responsabilidad) ⚠️
 
-<div style="background-color: #f8d7da; color: #721c24; border: 2px solid #f5c2c7; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
-<b>🚨 Importante:</b> PlanEstudiosUTN es un proyecto <b>personal y NO oficial</b>.<br><br>
-No existe afiliación ni respaldo por parte de la <b>Universidad Tecnológica Nacional Facultad Regional Córdoba (UTN FRC)</b>.
-</div>
+> [!CAUTION]
+> 🚨 **Importante:** PlanEstudiosUTN es un proyecto **personal y NO oficial**.  
+> No cuenta con afiliación ni respaldo por parte de la UTN FRC.
+
 
 La información contenida en los archivos Excel de PlanEstudiosUTN:
 
@@ -316,10 +322,14 @@ La información contenida en los archivos Excel de PlanEstudiosUTN:
 - Ha sido recopilada y organizada con el mayor cuidado posible.
 - **Sin embargo**, puede contener errores, diferencias o desactualizaciones respecto a la información oficial.
 
-<div style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
-<b>⚠️ Advertencia:</b> No se garantiza la precisión, integridad o vigencia oficial de la información.<br><br>
-Siempre verifica tus datos académicos utilizando fuentes oficiales: el sitio web de la UTN FRC, departamentos de alumnos, coordinadores de carrera o documentación oficial actualizada.
-</div>
+
+> [!WARNING]
+> ⚠️ **Advertencia:** No se garantiza la precisión ni vigencia oficial de la información.  
+> Verificá siempre tus datos con fuentes oficiales de la UTN FRC.
+> 
+> Siempre verifica tus datos académicos utilizando fuentes oficiales: el sitio web de la UTN FRC, departamentos de alumnos, coordinadores de carrera o documentación oficial actualizada.
+
+
 
 **PlanEstudiosUTN se proporciona "tal cual", sin garantías de ningún tipo, explícitas o implícitas.**  
 El uso de esta herramienta es **bajo tu propio riesgo**. El autor no asume ninguna responsabilidad por decisiones tomadas en base a esta información.
