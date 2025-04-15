@@ -7,18 +7,17 @@
 Este proyecto, **PlanEstudiosUTN**, es una iniciativa **personal y no oficial** creada por **Giuliano Benicio Charra Marquez** de la **Universidad Tecnológica Nacional - Facultad Regional Córdoba (UTN FRC)**.
 
 > [!Caution]
-> 🚨 **Atención:** Este proyecto ***NO*** es una herramienta oficial de la UTN FRC.  
-> 
-> Es una iniciativa **independiente** destinada a ayudarte a visualizar y gestionar tu avance académico de manera más fácil e interactiva.  
-> 
+> 🚨 **Atención:** Este proyecto **_NO_** es una herramienta oficial de la UTN FRC.
+>
+> Es una iniciativa **independiente** destinada a ayudarte a visualizar y gestionar tu avance académico de manera más fácil e interactiva.
+>
 > Consulta siempre las **fuentes oficiales** para información académica actualizada.
 
 > [!NOTE]
 > ℹ️ **Nota:** Los archivos de PlanEstudiosUTN fueron elaborados utilizando planes disponibles públicamente.
->   
+>
 > Aunque se ha puesto el mayor esfuerzo en asegurar su exactitud, **pueden existir errores**.  
 > ¡Cualquier sugerencia o corrección es muy bienvenida para seguir mejorando esta herramienta!
-
 
 ---
 
@@ -124,54 +123,55 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
 ## 📂 Archivos Excel - ¡Descarga el Plan de tu Carrera! 🚀
 
 <div align="center">
-<table style="border-collapse: collapse; width: 100%; margin-top: 1em; margin-bottom: 1em;">
-<tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
-        <a href="./excels/Plan Estudio 2025 CIVIL - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+<table >
+<tr  align="center">
+    <td >
+        <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20CIVIL%20-%20v5.1.xlsm" >
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; " >
             <br><b>Ingeniería Civil</b>
         </a>
     </td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
-        <a href="./excels/Plan Estudio 2025 ELECTRICA - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+    <td >
+        <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20ELECTRICA%20-%20v5.1.xlsm" >
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería en Energía Eléctrica</b>
         </a>
     </td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
-        <a href="./excels/Plan Estudio 2025 ELECTRONICA - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+    <td >
+        <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20ELECTRONICA%20-%20v5.1.xlsm">
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Electrónica</b>
         </a>
     </td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
-        <a href="./excels/Plan Estudio 2025 INDUSTRIAL - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+    <td >
+        <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20INDUSTRIAL%20-%20v5.1.xlsm">
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Industrial</b>
         </a>
     </td>
 </tr>
-<tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
-        <a href="./excels/Plan Estudio 2025 MECANICA - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+<tr align="center">
+    <td >
+        <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%MECANICA%20-%20v5.1.xlsm">
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Mecánica</b>
         </a>
     </td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
-        <a href="./excels/Plan Estudio 2025 METALURGICA - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+    <td >
+        <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%METALURGICA%20-%20v5.1.xlsm">
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Metalúrgica</b>
         </a>
     </td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
-        <a href="./excels/Plan Estudio 2025 QUIMICA - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+    <td >
+        <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20QUIMICA%20-%20v5.1.xlsm"
+>
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Química</b>
         </a>
     </td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
-        <a href="./excels/Plan Estudio 2025 SISTEMAS - v5.1.xlsm" target="_black" download style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+    <td >
+        <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20SISTEMAS%20-%20v5.1.xlsm" >
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería en Sistemas de Información</b>
         </a>
@@ -179,8 +179,6 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
 </tr>
 </table>
 </div>
-
-[Ingeniería en Sistemas de Información](https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/blob/main/excels/Plan%20Estudio%202025%20SISTEMAS%20-%20v5.1.xlsm)
 
 ---
 
@@ -199,7 +197,6 @@ Los archivos de **PlanEstudiosUTN** están protegidos para garantizar la estabil
 > ℹ️ **Nota:** Esta protección **NO** limita el uso normal de la herramienta.  
 > Todos los controles funcionan con normalidad.  
 > Está pensada para **preservar la estabilidad** del archivo.
-
 
 ---
 
@@ -242,7 +239,6 @@ Hay varias formas de hacerlo, según tu preferencia:
 > ⚠️ **Advertencia:** Cambiar configuraciones del Centro de Confianza puede afectar la seguridad de tu Excel.  
 > Hazlo solo si comprendés los riesgos y confiás en el archivo.
 
-
 1. Abre Excel.
 2. Ve a **Archivo** → **Opciones** → **Centro de Confianza** → **Configuración del Centro de Confianza**.
 3. Selecciona **Configuración de macros**.
@@ -272,18 +268,15 @@ Algunos sistemas marcan como “inseguro” un archivo descargado. Si no ves la 
 ---
 
 > [!CAUTION]
-> 🚨 **Seguridad:** Habilita macros **solo si confiás en el origen del archivo**.  
-> 
+> 🚨 **Seguridad:** Habilita macros **solo si confiás en el origen del archivo**.
+>
 > PlanEstudiosUTN es seguro, pero tené precaución general con macros de fuentes desconocidas.
 
-
-
 > [!TIP]
-> ℹ️ **Sugerencia:** Si deseas más información sobre cómo habilitar macros en Excel, puedes consultar esta guía externa: 
-> 
+> ℹ️ **Sugerencia:** Si deseas más información sobre cómo habilitar macros en Excel, puedes consultar esta guía externa:
+>
 > ➡️ [Cómo habilitar macros en Excel - PlanillaExcel.com](https://www.planillaexcel.com/blog/como-habilitar-las-macros-en-tu-excel)  
 > _Esta es una fuente externa y ajena a este proyecto. Se recomienda siempre verificar que la información sea actualizada y adecuada para tu versión de Excel._
-
 
 ---
 
@@ -308,7 +301,6 @@ PlanEstudiosUTN es un proyecto en constante evolución pensado para ayudar a tod
 > ℹ️ **Nota:** ¡Las críticas constructivas, correcciones o sugerencias son muy bienvenidas!  
 > Este proyecto es colaborativo: cualquier aporte será valorado.
 
-
 ---
 
 ## ⚠️ Disclaimer (Descargo de Responsabilidad) ⚠️
@@ -317,21 +309,17 @@ PlanEstudiosUTN es un proyecto en constante evolución pensado para ayudar a tod
 > 🚨 **Importante:** PlanEstudiosUTN es un proyecto **personal y NO oficial**.  
 > No cuenta con afiliación ni respaldo por parte de la UTN FRC.
 
-
 La información contenida en los archivos Excel de PlanEstudiosUTN:
 
 - Se basa en planes de estudio que fueron públicos o accesibles en el momento de su elaboración.
 - Ha sido recopilada y organizada con el mayor cuidado posible.
 - **Sin embargo**, puede contener errores, diferencias o desactualizaciones respecto a la información oficial.
 
-
 > [!WARNING]
 > ⚠️ **Advertencia:** No se garantiza la precisión ni vigencia oficial de la información.  
 > Verificá siempre tus datos con fuentes oficiales de la UTN FRC.
-> 
+>
 > Siempre verifica tus datos académicos utilizando fuentes oficiales: el sitio web de la UTN FRC, departamentos de alumnos, coordinadores de carrera o documentación oficial actualizada.
-
-
 
 **PlanEstudiosUTN se proporciona "tal cual", sin garantías de ningún tipo, explícitas o implícitas.**  
 El uso de esta herramienta es **bajo tu propio riesgo**. El autor no asume ninguna responsabilidad por decisiones tomadas en base a esta información.
