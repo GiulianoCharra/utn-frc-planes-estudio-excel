@@ -1,85 +1,3 @@
-<style>
-/* Estilos globales para el README */
-
-.alerta, .warning, .info, .danger {
-    padding: 15px;
-    border-radius: 6px;
-    margin-bottom: 1em;
-}
-
-.alerta, .danger {
-    background-color: #f8d7da;
-    color: #721c24;
-}
-
-.warning {
-    background-color: #fff3cd;
-    color: #856404;
-}
-
-.info {
-    background-color: #d1ecf1;
-    color: #0c5460;
-}
-
-.alerta {
-    border: 1px solid #f5c6cb;
-}
-
-.warning {
-    border: 1px solid #ffeeba;
-}
-
-.info {
-    border: 1px solid #bee5eb;
-}
-
-.danger {
-    border: 2px solid #f5c2c7;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: center;
-}
-
-th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-}
-
-td {
-    width: 25%;
-    vertical-align: top;
-}
-
-td:hover {
-    background-color: #e0e0e0;
-}
-
-a {
-    display: inline-block;
-    padding: 8px;
-    text-decoration: none;
-    color: #0056b3;
-}
-
-
-img.excel-icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
-
 # 🚀 Planes de Estudio UTN FRC Interactivos (2025) 📚
 
 ---
@@ -88,13 +6,13 @@ img.excel-icon {
 
 Este proyecto, **PlanEstudiosUTN**, es una iniciativa **personal y no oficial** creada por **Giuliano Benicio Charra Marquez** de la **Universidad Tecnológica Nacional - Facultad Regional Córdoba (UTN FRC)**.
 
-<div class="alerta">
+<div style="background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
 <b>🚨 Atención:</b> Este proyecto <b>NO</b> es una herramienta oficial de la UTN FRC.<br><br>
 Es una iniciativa <b>independiente</b> destinada a ayudarte a visualizar y gestionar tu avance académico de manera más fácil e interactiva.<br><br>
 Consulta siempre las <b>fuentes oficiales</b> para información académica actualizada.
 </div>
 
-<div class="info">
+<div style="background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
 <b>ℹ️ Nota:</b> Los archivos de PlanEstudiosUTN fueron elaborados utilizando los planes de estudio disponibles públicamente o de acceso accesible en su momento.<br><br>
 Aunque se ha puesto el mayor esfuerzo en asegurar su exactitud, <b>pueden existir errores</b>. ¡Cualquier crítica constructiva, corrección o sugerencia es <b>bienvenida</b> para seguir mejorando esta herramienta!
 </div>
@@ -131,19 +49,22 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
 
 - **Tabla de Materias Detallada:**  
   Listado completo de materias con:
+
   - Código
   - Nombre
   - Estado visualizado por íconos:
     - **🟩 Aprobado:** Materia aprobada (bandera verde).
     - **🟨 Regular:** Materia regular o en curso (signo de exclamación amarillo).
     - **🟥 Libre:** Materia libre (bandera roja).
-    - *(Sin ícono si el estado está vacío)*
+    - _(Sin ícono si el estado está vacío)_
   - otros datos relevantes como carga horaria, correlatividades, etc.
 
 - **Búsqueda Dinámica 🔍 (ComboBox + TextBox):**
+
   - Permite buscar materias por nombre o seleccionar desde una lista desplegable.
 
 - **Visualización de Dependencias 🔗:**
+
   - **Mostrar dependencias** (NO/SI):
     - **NO:** Se muestra únicamente la materia buscada o seleccionada.
     - **SI:** Se muestran todas las materias que **dependen** de la materia buscada.
@@ -154,11 +75,12 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
     - **SI:** Ignora requisitos de cursado y calcula si podrías solicitar cursar la materia basándose en tus horas aprobadas restantes.
     - Se indica si la solicitud sería posible o no.
 
-<div class="warning">
+<div style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
 <b>⚠️ Importante:</b> El cálculo de excepciones es estimativo y no oficial. Utilízalo como una guía preliminar, no como confirmación oficial de cursado.
 </div>
 
 - **Filtros Avanzados:**
+
   - Filtrar materias por:
     - Nivel
     - Tipo (Obligatoria / Electiva)
@@ -167,23 +89,28 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
     - Disponibilidad para cursar
 
 - **Cambio de Plan 📋:**
+
   - Visualiza materias según el plan anterior (**< 2023**) o el nuevo plan (**≥ 2023**).
 
 - **Carga Horaria y Puntos de Electivas:**
+
   - Visualiza la carga horaria de cada materia y los puntos obtenidos en materias electivas.
 
 - **Resaltado de Materias:**
+
   - Materias que faltan para obtener:
     - Título intermedio (si la carrera lo tiene)
     - Título de Ingeniero/a
     - Materias disponibles para cursar actualmente
 
 - **Correlatividades Visuales 🔗 (Columnas "R" y "A"):**
+
   - **"R"** (Regulares necesarias)
   - **"A"** (Aprobadas necesarias)
   - Clic interactivo: Al seleccionar correlativas o materias, se resaltan en la hoja **Control** (si existe).
 
 - **Ordenamiento Flexible 🔀 (Botón "Ordenar por Materia"):**
+
   - Ordena las materias A-Z, Z-A o por el orden original del plan.
 
 - **Limpieza Rápida 🧹 (Botón "Limpiar Estado"):**
@@ -194,55 +121,55 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
 ## 📂 Archivos Excel - ¡Descarga el Plan de tu Carrera! 🚀
 
 <div align="center">
-<table>
+<table style="border-collapse: collapse; width: 100%; margin-top: 1em; margin-bottom: 1em;">
 <tr>
-    <td>
-        <a href="#">
-            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
+        <a href="./excels/Plan Estudio 2025 CIVIL - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; " >
             <br><b>Ingeniería Civil</b>
         </a>
     </td>
-    <td>
-        <a href="#">
-            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
+        <a href="./excels/Plan Estudio 2025 ELECTRICA - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería en Energía Eléctrica</b>
         </a>
     </td>
-    <td>
-        <a href="#">
-            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
+        <a href="./excels/Plan Estudio 2025 ELECTRONICA - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Electrónica</b>
         </a>
     </td>
-    <td>
-        <a href="#">
-            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
+        <a href="./excels/Plan Estudio 2025 INDUSTRIAL - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Industrial</b>
         </a>
     </td>
 </tr>
 <tr>
-    <td>
-        <a href="#">
-            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
+        <a href="./excels/Plan Estudio 2025 MECANICA - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Mecánica</b>
         </a>
     </td>
-    <td>
-        <a href="#">
-            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
+        <a href="./excels/Plan Estudio 2025 METALURGICA - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Metalúrgica</b>
         </a>
     </td>
-    <td>
-        <a href="#">
-            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
+        <a href="./excels/Plan Estudio 2025 QUIMICA - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Química</b>
         </a>
     </td>
-    <td>
-        <a href="#">
-            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" width="50">
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center; width: 25%; vertical-align: top;">
+        <a href="./excels/Plan Estudio 2025 SISTEMAS - v5.1.xlsm" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;">
+            <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería en Sistemas de Información</b>
         </a>
     </td>
@@ -257,12 +184,13 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
 Los archivos de **PlanEstudiosUTN** están protegidos para garantizar la estabilidad y el correcto funcionamiento de todas las funcionalidades interactivas.
 
 - **Protección de Hojas de Cálculo:**
+
   - Las hojas están protegidas para evitar modificaciones accidentales en fórmulas y estructuras críticas.
 
 - **Protección del Código VBA:**
   - El código de las macros también está protegido mediante contraseña para prevenir cambios que puedan afectar el correcto funcionamiento o la seguridad.
 
-<div class="info">
+<div style="background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
 <b>ℹ️ Nota:</b> Esta protección <b>NO</b> limita el uso normal de la herramienta.<br><br>
 Podrás utilizar todos los controles (ComboBox, TextBox, Botones, Checkboxes, Filtros, etc.) con total normalidad.<br><br>
 La protección está pensada para <b>preservar la estabilidad</b> del archivo.
@@ -280,7 +208,8 @@ Hay varias formas de hacerlo, según tu preferencia:
 
 ### ✅ Opción 1: Habilitar Macros al Abrir el Archivo (Rápido y Sencillo)
 
-1. Al abrir el archivo Excel, aparecerá una **barra amarilla** con una advertencia de seguridad:  
+1. Al abrir el archivo Excel, aparecerá una **barra amarilla** con una advertencia de seguridad:
+
    > “Las macros se han deshabilitado.”
 
 2. Haz clic en el botón **"Habilitar contenido"**.
@@ -304,7 +233,7 @@ Hay varias formas de hacerlo, según tu preferencia:
 
 ### ⚙️ Opción 3: Configurar Macros en el Centro de Confianza (Usuarios Avanzados)
 
-<div class="warning">
+<div style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
 <b>⚠️ Advertencia:</b> Cambiar configuraciones del Centro de Confianza puede afectar la seguridad general de tu Excel.<br><br>
 Hazlo solo si comprendes los riesgos y confías en los archivos que utilizas.
 </div>
@@ -337,19 +266,19 @@ Algunos sistemas marcan como “inseguro” un archivo descargado. Si no ves la 
 
 ---
 
-<div class="danger">
+<div style="background-color: #f8d7da; color: #721c24; border: 2px solid #f5c2c7; padding: 15px; border-radius: 6px; margin-bottom: 1em;">
 <b>🚨 Seguridad:</b> Habilita macros <b>solo si confías</b> en el origen del archivo.<br><br>
 PlanEstudiosUTN es seguro, pero siempre debes tener precaución general al habilitar macros provenientes de fuentes desconocidas.
 </div>
 
-<div class="info">
+<div style="background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; padding: 15px; border-radius: 6px; margin-bottom: 1em;">
 <b>ℹ️ Sugerencia:</b> Si deseas más información sobre cómo habilitar macros en Excel, puedes consultar esta guía externa:<br><br>
-➡️ <a href="https://www.planillaexcel.com/blog/como-habilitar-las-macros-en-tu-excel" target="_blank"><b>Cómo habilitar macros en Excel - PlanillaExcel.com</b></a><br><br>
+➡️ <a href="https://www.planillaexcel.com/blog/como-habilitar-las-macros-en-tu-excel" target="_blank" style="display: inline-block; padding: 8px; text-decoration: none; color: #0056b3;"><b>Cómo habilitar macros en Excel - PlanillaExcel.com</b></a><br><br>
 <i>Esta es una fuente externa y ajena a este proyecto. Se recomienda siempre verificar que la información sea actualizada y adecuada para tu versión de Excel.</i>
 </div>
 
-
 ---
+
 ---
 
 ## 🤝 ¡Colabora y Mejora PlanEstudiosUTN! 🚀
@@ -360,13 +289,14 @@ PlanEstudiosUTN es un proyecto en constante evolución pensado para ayudar a tod
 ¿Cómo puedes colaborar?
 
 - 🐞 **Informar Problemas (Issues):**
+
   - Si encuentras algún error, comportamiento inesperado o inconsistencia, crea un "Issue" en este repositorio.
   - Describe claramente el problema o la mejora sugerida.
 
 - 💡 **Compartir Ideas y Comentarios:**
   - Usa la sección de **"Discusiones"** para proponer ideas, sugerencias generales o debatir mejoras junto a otros usuarios y el autor.
 
-<div class="info">
+<div style="background-color: #d1ecf1; color: #0c5460; border: 1px solid #bee5eb; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
 <b>ℹ️ Nota:</b> ¡Las críticas constructivas, correcciones, sugerencias o nuevas ideas son <b>muy bienvenidas</b>!<br><br>
 Este proyecto es abierto y colaborativo: cualquier aporte que ayude a mejorarlo será valorado.
 </div>
@@ -375,7 +305,7 @@ Este proyecto es abierto y colaborativo: cualquier aporte que ayude a mejorarlo 
 
 ## ⚠️ Disclaimer (Descargo de Responsabilidad) ⚠️
 
-<div class="danger">
+<div style="background-color: #f8d7da; color: #721c24; border: 2px solid #f5c2c7; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
 <b>🚨 Importante:</b> PlanEstudiosUTN es un proyecto <b>personal y NO oficial</b>.<br><br>
 No existe afiliación ni respaldo por parte de la <b>Universidad Tecnológica Nacional Facultad Regional Córdoba (UTN FRC)</b>.
 </div>
@@ -386,7 +316,7 @@ La información contenida en los archivos Excel de PlanEstudiosUTN:
 - Ha sido recopilada y organizada con el mayor cuidado posible.
 - **Sin embargo**, puede contener errores, diferencias o desactualizaciones respecto a la información oficial.
 
-<div class="warning">
+<div style="background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 15px; border-radius: 6px; margin-bottom: 1em; ">
 <b>⚠️ Advertencia:</b> No se garantiza la precisión, integridad o vigencia oficial de la información.<br><br>
 Siempre verifica tus datos académicos utilizando fuentes oficiales: el sitio web de la UTN FRC, departamentos de alumnos, coordinadores de carrera o documentación oficial actualizada.
 </div>
@@ -396,7 +326,7 @@ El uso de esta herramienta es **bajo tu propio riesgo**. El autor no asume ningu
 
 ---
 
-<p align="right">
+<p align="center">
 <b>Desarrollado con pasión por Giuliano Benicio Charra Marquez - UTN FRC - 2025</b>
 </p>
 
