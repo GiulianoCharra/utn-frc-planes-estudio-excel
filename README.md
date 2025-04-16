@@ -124,53 +124,53 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
 
 <div align="center">
 <table >
-<tr  align="center">
-    <td >
+<tr  align="center"  valign="top">
+    <td width="25%" >
         <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20CIVIL%20-%20v5.1.xlsm" >
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; " >
             <br><b>Ingeniería Civil</b>
         </a>
     </td>
-    <td >
+    <td width="25%" >
         <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20ELECTRICA%20-%20v5.1.xlsm" >
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería en Energía Eléctrica</b>
         </a>
     </td>
-    <td >
+    <td width="25%" >
         <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20ELECTRONICA%20-%20v5.1.xlsm">
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Electrónica</b>
         </a>
     </td>
-    <td >
+    <td width="25%" >
         <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20INDUSTRIAL%20-%20v5.1.xlsm">
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Industrial</b>
         </a>
     </td>
 </tr>
-<tr align="center">
-    <td >
+<tr align="center" valign="top">
+    <td width="25%" >
         <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%MECANICA%20-%20v5.1.xlsm">
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Mecánica</b>
         </a>
     </td>
-    <td >
+    <td width="25%" >
         <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%METALURGICA%20-%20v5.1.xlsm">
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Metalúrgica</b>
         </a>
     </td>
-    <td >
+    <td width="25%" >
         <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20QUIMICA%20-%20v5.1.xlsm"
 >
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería Química</b>
         </a>
     </td>
-    <td >
+    <td width="25%" >
         <a href="https://github.com/GiulianoCharra/utn-frc-planes-estudio-excel/raw/main/excels/Plan%20Estudio%202025%20SISTEMAS%20-%20v5.1.xlsm" >
             <img src="imagenes/excel_icon.svg" class="excel-icon" alt="Excel Icon" style="display: block; margin-left: auto; margin-right: auto; width: 100px; ">
             <br><b>Ingeniería en Sistemas de Información</b>
