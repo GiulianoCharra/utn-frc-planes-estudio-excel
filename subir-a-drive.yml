@@ -1,0 +1,30 @@
+name: Subir Excels a Drive
+
+on:
+  push:
+    paths:
+      - 'excels/*.xlsm'
+
+jobs:
+  subir-a-drive:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Instalar Rclone
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y rclone
+
+    - name: Configurar Rclone
+      env:
+        RCLONE_CONFIG: ${{ secrets.RCLONE_CONFIG }}
+      run: |
+        mkdir -p ~/.config/rclone
+        echo "$RCLONE_CONFIG" > ~/.config/rclone/rclone.conf
+
+    - name: Subir Excels a Drive
+      run: |
+        rclone copy "excels/" "utn-frc-planes-estudio-sync:" --progress --include "*.xlsm"
