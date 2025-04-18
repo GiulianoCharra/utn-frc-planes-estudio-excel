@@ -4,6 +4,17 @@ on:
   push:
     paths:
       - 'excels/*.xlsm'
+  workflow_dispatch:
+    inputs:
+      carpeta_drive:
+        description: 'Subcarpeta opcional dentro del remote (dejar vacío para raíz)'
+        required: false
+        default: ''
+      sobrescribir:
+        description: 'Sobrescribir archivos si ya existen'
+        required: false
+        type: boolean
+        default: true
 
 jobs:
   subir-a-drive:
@@ -26,5 +37,14 @@ jobs:
         echo "$RCLONE_CONFIG" > ~/.config/rclone/rclone.conf
 
     - name: Subir Excels a Drive
+      env:
+        DESTINO: ${{ inputs.carpeta_drive }}
+        SOBRESCRIBIR: ${{ inputs.sobrescribir }}
       run: |
-        rclone copy "excels/" "utn-frc-planes-estudio-sync:" --progress --include "*.xlsm"
+        DESTINO_FINAL="utn-frc-planes-estudio-sync:${DESTINO:-}"
+        OPCIONES=""
+        if [ "$SOBRESCRIBIR" != "true" ]; then
+          OPCIONES="--ignore-existing"
+        fi
+        echo "Subiendo archivos a $DESTINO_FINAL con opciones: $OPCIONES"
+        rclone copy "excels/" "$DESTINO_FINAL" --progress --include "*.xlsm" $OPCIONES
