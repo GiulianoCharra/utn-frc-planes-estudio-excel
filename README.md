@@ -180,6 +180,10 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
 </table>
 </div>
 
+[!NOTE]
+📁 También podés ver o descargar todos los archivos desde la carpeta pública de Google Drive:
+👉 Acceder a la Carpeta de Archivos PlanEstudiosUTN
+
 ---
 
 ## 🔐 Protección de los Archivos Excel y Macros 🛡️
@@ -280,26 +284,33 @@ Algunos sistemas marcan como “inseguro” un archivo descargado. Si no ves la 
 
 ---
 
----
-
 ## 🤝 ¡Colabora y Mejora PlanEstudiosUTN! 🚀
 
 **Tu feedback y participación son muy valiosos para seguir mejorando esta herramienta.**  
 PlanEstudiosUTN es un proyecto en constante evolución pensado para ayudar a todos los estudiantes de la UTN FRC.
 
-¿Cómo puedes colaborar?
+¿Cómo podés colaborar?
 
-- 🐞 **Informar Problemas (Issues):**
+- 🐞 **Informar Problemas (Issues):**  
+  Si encontrás algún error, comportamiento inesperado o inconsistencia, creá un "Issue" en este repositorio.  
+  Describí claramente el problema o tu sugerencia.
 
-  - Si encuentras algún error, comportamiento inesperado o inconsistencia, crea un "Issue" en este repositorio.
-  - Describe claramente el problema o la mejora sugerida.
+- 💬 **Compartir Ideas o Mejoras:**  
+  Usá la sección de **"Discusiones"** para proponer ideas, debatir mejoras con otros usuarios o dejar comentarios generales.
 
-- 💡 **Compartir Ideas y Comentarios:**
-  - Usa la sección de **"Discusiones"** para proponer ideas, sugerencias generales o debatir mejoras junto a otros usuarios y el autor.
+- ✍️ **Enviar una sugerencia rápida:**  
+  Si preferís una vía más simple, podés dejar tu comentario completando este formulario online:  
+  👉 [Formulario de Sugerencias - PlanEstudiosUTN](https://docs.google.com/forms/d/e/1FAIpQLScQKcKysRyaNdW_AV9PvxOe_YRcobrPeWFYXp97REstCtUiYA/viewform)
+
+  Tus respuestas quedan guardadas en una hoja pública (solo lectura):  
+  📄 [Ver hoja de respuestas (Google Sheets)](https://docs.google.com/spreadsheets/d/1ZZDFsZ6YMFyTJuFfYNzT-9laWHCqLuq2mgEppjWJBaY/edit?usp=drive_link)
+
+  📁 También podés acceder a la carpeta completa con el formulario y planilla:  
+  [Ir a la carpeta de Sugerencias](https://drive.google.com/drive/folders/1NOiGyadUBWk4DkFbuUUlsgQ87vEiSOm0?usp=sharing)
 
 > [!NOTE]
-> ℹ️ **Nota:** ¡Las críticas constructivas, correcciones o sugerencias son muy bienvenidas!  
-> Este proyecto es colaborativo: cualquier aporte será valorado.
+> ℹ️ Las críticas constructivas, correcciones o ideas son siempre bienvenidas.  
+> Este es un proyecto colaborativo, ¡y cualquier aporte es valorado!
 
 ---
 
