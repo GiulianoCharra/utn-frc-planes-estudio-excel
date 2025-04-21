@@ -180,10 +180,10 @@ Los archivos Excel **PlanEstudiosUTN (.xlsm)**, habilitados con macros, ofrecen 
 </table>
 </div>
 
-[!NOTE]
-📁 También podés ver o descargar todos los archivos desde la carpeta pública de Google Drive:
-👉 Acceder a la Carpeta de Archivos PlanEstudiosUTN
-
+>[!NOTE]
+>📁 También podés ver o descargar todos los archivos desde la carpeta pública de Google Drive:
+>  
+>👉 [Acceder a la Carpeta de Archivos PlanEstudiosUTN](https://drive.google.com/drive/folders/1NOiGyadUBWk4DkFbuUUlsgQ87vEiSOm0?usp=sharing)
 ---
 
 ## 🔐 Protección de los Archivos Excel y Macros 🛡️
